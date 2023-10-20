@@ -1,0 +1,162 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  background-color: black;
+  margin-bottom: 0;
+}
+
+nav {
+  justify-content: space-between;
+  display: flex;
+  margin: 0 40px;
+  align-content: center;
+}
+
+.header nav img {
+  width: 100px;
+  height: 80px;
+}
+
+.header nav li {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.header nav li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  padding: 10px;
+}
+
+.header nav li a:hover {
+  background-color: orangered;
+}
+
+.second {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 250px;
+}
+
+.ipsum {
+  margin: 0 40px;
+  width: 35%;
+}
+
+.images {
+  margin: 0 40px;
+  width: 52%;
+}
+
+.images img {
+  height: 95%;
+  width: 100%;
+}
+
+.read {
+  background-color: orangered;
+  color: white;
+  padding: 9px 8px;
+  border-color: black;
+  border-radius: 2px;
+}
+
+.main {
+  background-color: whitesmoke;
+  padding-bottom: 30px;
+}
+
+.nest-col1 {
+  display: flex;
+  margin: auto;
+}
+
+.col1 {
+  width: 33%;
+  margin: 0 40px;
+}
+
+.main img {
+  width: 95%;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0 40px;
+}
+
+button {
+  background-color: orangered;
+  color: white;
+  padding: 9px 8px;
+  border-color: black;
+  border-radius: 2px;
+}
+
+.subfooter {
+  display: flex;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  
+}
+
+.sub {
+  width: 36%;
+  margin: 0 40px;
+}
+
+.sub img {
+  width: 25px;
+  height: 25px;
+
+}
+.subfooter .sub h2{
+    color:blanchedalmond;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+.sss{
+    display: flex;
+  align-items: center;
+  margin-right: 20px;
+  
+}
+ .prg{
+    margin-left: 15px;
+    line-height: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(145, 134, 122);
+}
+.prg2{
+    color: rgb(145, 134, 122);
+    line-height: 17px;
+}
+.prg3{
+    padding: 0 20px;
+    align-items: center;
+    color: rgb(145, 134, 122);
+}
+footer{
+   background-color: rgb(243, 243, 243);
+   color: black;
+   font-size: large;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 0;
+   
+}
+.footer{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
